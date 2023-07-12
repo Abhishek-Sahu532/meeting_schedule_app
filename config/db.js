@@ -4,7 +4,7 @@ require('dotenv').config()
 
 const DB_URI = process.env.DATABASE_URL
 const MONGO_OPTIONS ={
-    useNewUrlParse: true,
+    useNewUrlParser: true,
     useUnifiedTopology: true
 }
 
